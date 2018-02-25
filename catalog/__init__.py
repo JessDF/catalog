@@ -20,7 +20,7 @@ db = DatabaseOperations()
 credentials = {}
 token_info = {}
 
-CLIENT_ID = json.loads(open('client_secret.json', 'r').read())['web']['client_id']
+CLIENT_ID = json.loads(open('/var/www/catalog/catalog/client_secret.json', 'r').read())['web']['client_id']
 UPLOAD_FOLDER = 'images'
 ALLOWED_EXTENSIONS = set(['png', 'jpg', 'jpeg', 'gif'])
 
